@@ -37,5 +37,5 @@ export const initialContacts = {
     }
 })
 
-export const contactReduser = sliceContacts.reducer;
+export const contactReducer = sliceContacts.reducer;
 export const {addContact, deleteContact} = sliceContacts.actions
